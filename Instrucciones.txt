@@ -1,0 +1,13 @@
+INSTRUCCIONES DE USO
+
+1. Ejecutar el primer paso en el archivo CoVID_19.ipynb
+
+2. Correr el query de "Create_StagingBD.sql" en SQL Server
+
+3. Cargar los datos del .csv a la tabla StagingPatients en la BD "COVID19"
+
+4. Ejecutar el segundo paso en el archivo CoVID_19.ipynb
+
+5. Ejecutar el Query de "Create_DimensionalBD.sql" en SQL Server
+
+6. Ejecutar el tercer paso en el archivo CoVID_19.ipynb
